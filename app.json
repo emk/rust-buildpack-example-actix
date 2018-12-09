@@ -1,0 +1,11 @@
+{
+    "name": "Example Rust application",
+    "description": "A barebones Rust application using the Actix framework",
+    "repository": "https://github.com/emk/rust-buildpack-example-actix",
+    "success_url": "/",
+    "keywords": ["rust", "actix"],
+    "website": "https://github.com/emk/rust-buildpack-example-actix",
+    "env": {
+      "BUILDPACK_URL": "https://github.com/emk/heroku-buildpack-rust.git"
+    }
+  }
