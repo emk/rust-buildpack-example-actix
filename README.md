@@ -1,4 +1,12 @@
+# Example application: Rust, Actix & Heroku
+
 [![Build Status](https://travis-ci.org/emk/rust-buildpack-example-actix.svg?branch=master)](https://travis-ci.org/emk/rust-buildpack-example-actix)
+
+[Rust][] is a language suitable for high-peformance, reliable web services. [Actix][] is a popular Rust web framework. [Heroku][] deploys, manages and scales web applications.
+
+[Rust]: https://www.rust-lang.org/
+[Actix]: https://actix.rs/
+[Heroku]: https://www.heroku.com/
 
 To deploy this application to Heroku, use this button:
 
@@ -19,8 +27,8 @@ For further instructions, see the [page for this buildpack][buildpack].
 
 [buildpack]: https://github.com/emk/heroku-buildpack-rust
 
-### Does this work with the latest version of Rust?
+## Does this work with the latest version of Rust?
 
 This application works with version 1.31 of Rust, which theoretically means
-that it should run on any future 1.x release of Rust.  If it doesn't work,
+that it should run on any future 1.x release of Rust. If it doesn't work,
 please file a bug.
