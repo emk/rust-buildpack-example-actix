@@ -9,7 +9,7 @@ Or, if you'd prefer to use the command line, try running:
 ``` sh
 git clone https://github.com/emk/rust-buildpack-example-actix.git
 cd rust-buildpack-example-actix
-heroku create --buildpack https://github.com/emk/heroku-buildpack-rust.git
+heroku create --buildpack emk/rust
 git push heroku master
 ```
 
