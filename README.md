@@ -10,7 +10,7 @@
 
 To deploy this application to Heroku, use this button:
 
-[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
 Or, if you'd prefer to use the command line, try running:
 
