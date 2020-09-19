@@ -34,8 +34,8 @@ impl Actor for MyActor {
     type Context = Context<Self>;
 }
 
-#[derive(Message)]
-#[rtype(result = "usize")]
+// #[derive(Message)]
+// #[rtype(result = "usize")]
 // This request handler, is an async function,
 // that accepts parameters, that can be extracted from a request,
 // for example, impl FromRequest, and returns a type that can
