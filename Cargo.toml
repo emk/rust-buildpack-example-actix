@@ -5,4 +5,4 @@ authors = ["Eric Kidd <git@randomhacks.net>"]
 edition = "2018"
 
 [dependencies]
-actix-web = "0.7"
+actix-web = "3.3.2"
